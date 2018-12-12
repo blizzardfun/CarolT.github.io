@@ -1,20 +1,30 @@
 h1 {
-    color: #260fbf;
+    color: #12cccc;
     border-bottom-style:solid;
     border-width:medium;
-    border-color:#260fbf;
+    border-color:#12cccc;
 }
 
 h3 {
-    color:#f2073e;
+    color:#cc5d67;
     border-bottom-style:solid;
     border-width:medium;
-    border-color:#f2073e;
+    border-color:#cc5d67;
 }
 
+body {
+    background-color: gainsboro;
+}
 h4 {
-    color:#f2e2b0;
+    color:#cc5d98;
     border-bottom-style:solid;
     border-width:medium;
-    border-color:#f2e2b0;
+    border-color:#cc5d98;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
