@@ -1,155 +1,237 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Carol Thompson Bio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-  crossorigin="anonymous">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Profile">
+  <meta name="author" content="Carol Thompson">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
-integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
-crossorigin="anonymous">
+  <title>C Thompson</title>
 
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
- <link rel="stylesheet" href="static/css/styles.css">
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
 </head>
 
-<body> 
-                                                   <!-- Project Title Row -->
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Profile</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#projects">Projects</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#hobbies">Hobbies</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-right my-auto">
+      <h1 class="mb-1"><em>Carol Thompson</em></h1>
+      <h2 class="mb-3">
+        <em>Life can only be understood backwards;</em>
+      </h2>
+      <h2 class="mb-3">
+          <em>but it must be lived forwards.</em>
+        </h2>
+      <h2 class="mb-3">
+          <em> ― Søren Kierkegaard</em>
+        </h2>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- About -->
+  <section class="content-section bg-dark text-white" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+                     
+          <h2>Data Scientist</h2> 
+          <p class="lead mb-5"><b>Experienced in Education</b>, making challenging topics easier to understand and 
+            communicating technical information to a non-technical audience. </p>
+            <p class="lead mb-5"><b>Certificate from Data Analytics and Visualization Bootcamp </b>at the 
+              University of Minnesota</p>
+          <p class="lead mb-5"> <b>B.S. and M.S. in Computer Science </b>from the University of Minnesota </p> 
+
+            <p class="lead mb-5"> <b>A diligent problem solver </b>with a love of learning through analytics and the organization of information, 
+              looking to join a data team as a <b>back-end developer </b>to gain 
+              experience working with BIG data. I have the ability and diligence to learn effectively, solve problems creatively, and keep up with changing demands.</p>
+              <!-- <p class="lead mb-5"> Languages:Python, SQL, Javascript, HTML, C, Fortran and Excel VBA.</p>
+              <p class="lead mb-5"> Python Libraries:Scipy, Pandas, Matplotlib, Plotly, and Scikit-learn.</p>
+              <p class="lead mb-5"> Tools:Git, Visual Stuido Code, Jupyter Notebook, Tableau.</p>
+              <p class="lead mb-5"> Databases:mySQL, sqlite, MongoDB.</p> -->
+              <!-- <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Projects -->
+    <section class="content-section" id="projects">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://public.tableau.com/profile/linda.reber#!/vizhome/Loans_22/Presentation?publish=yes">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Hamilton Loans</h2>
+                  <p class="mb-0">The goal of this project was to analyze data from Home Mortgage Disclosure Act (HMDA) and 
+                    determine the variables most significant in deciding if a loan is approved or denied. We went on to compare various 
+                    Machine Learning models for effectiveness and visualized our results on Tableau. </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/house.jpg" alt="house">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://blizzardfun.github.io/CitiBike-Tableau/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>New York City CitiBike Analysis</h2>
+                  <p class="mb-0">The goal of this project was to analyze bike station usage comparing stations through various times of day and seasons. 
+                    Data transformation is done in Python with visualization in Tableau</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/citibike.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://blizzardfun.github.io/WebWeather/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Web Weather</h2>
+                  <p class="mb-0">Using Python to access openweathermap’s API and analyze JSON data this project answers the 
+                    question “What is the weather like as we approach the equator?”</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/worldbroad.gif" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <!-- Hobbies -->
+  <section class="content-section bg-primary text-white text-center" id="hobbies">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
-              <h1>   Accomplishments   </h1>
-            </div>
-        </div>    
-                                                         <!-- Projects Row -->
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-4">
-              <div class="thumbnail">
-                <a target="_blank" href="https://blizzardfun.github.io/WebWeather">
-                <img src="./Images/Fig1.png" alt="weather data graph" width=>
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Hobbies</h3>
+        <h2 class="mb-5">Woodworking</h2>
+      </div>
 
-                <div class="caption">
-                  <h3>Python Web Weather</h3>
-                  <p>Using Python and Jupyter Notebook to visualize data aquired from OpenWeatherMap API and 
-                    presenting it with HTML</p>
-                   <a href="https://github.com/blizzardfun/WebWeather">Github link</a>
-                </div>
-              </a>
-              </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-5">
-                <div class="thumbnail">
-                  <a target="_blank" href="https://blizzardfun.github.io/pharma_analysis.github.io/" >
-                    <img src="./Images/TumorPercentChange.png" alt="matplotlib graph">
+      <div class="row">
 
-                  <div class="caption">
-                    <h3>Python plotting</h3>
-                    <p>Using Python with pandas dataframes and matplotlib for plotting results, data 
-                      analysis was done to compare results of various drugs. Data was provided in csv files.</p>
-                      <a href="https://github.com/blizzardfun/pharma_analysis.github.io">Github link</a>
-                  </div>
-                </a>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6  col-md-3">
-                <div class="thumbnail">
-                  <a target="_blank" href="https://biodiversity-belly-buttons.herokuapp.com/">
-                  <img src="./Images/pie_chart.png"  alt="Pie chart">
-
-                  <div class="caption">
-                    <h3> Javascript Dashboard</h3>
-                    <p>Using javascript and Plotly.js to build interactive charts for a dashboard. Starter code was provided.</p>
-                    <a href="https://github.com/blizzardfun/Biodiversity">Github link</a>
-                  </div>
-                </a>
-                </div>
-            </div>
-          </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-10 col-md-8">
-            <h1> Carol Thompson </h1>
-          </div>
-        </div>
-                                             <!-- About Me Row -->
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-2">
-            <img  class="thumbnail" src="./Images/profile.jpg" alt="Profile Photo" height="220">
-
-          </div>
-          <div class="col-xs-12 col-sm-8 col-md-7">
-            <b>
-            <p>Data Scientist  with experience in Education, making challenging topics easier to understand 
-            and communicating technical information to a non-technical audience.  </p>
-            <p>B.S. and M.S. in computer science and 
-            currently in Data Analytics and Visualization Bootcamp at the University of Minnesota expanding my skills 
-            in Python with Pandas, Matplotlib, SQL, Javascript, R, Tableau, and Excel VBA. </p> 
-            <p>A diligent problem solver with a love of learning through analytics and the organization of information, 
-              looking to join a data team to gain experience working with BIG data.  
-              I have the ability and diligence to learn effectively, solve problems creatively, and keep up with changing demands. </p> 
-            </b>
-          </div>
-          <div class="col-xs-12 col-sm-8 col-md-3" >
-              <h3> Contact Information </h3>
-          <b>
-          <ul>
-              <li class=table-entry > LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/carol-t-358003155"> www.linkedin.com</a> </li>
-              <li class=table-entry>  Git Hub: <a target="_blank" href="https://github.com/blizzardfun"> github.com/blizzardfun </a> </li>
-              <li class=table-entry> Send Email:<a href="mailto:cthompson14679@gmail.com?Subject=Hello%20again" target="_top">
-                  cthompson14679@gmail.com</a> </li>
-            </ul></b>         
-          </div>
+          <!-- End Table -->
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <img class="img-fluid" src="img/endTable.jpg" alt="end table">
+          <h4>
+            <strong>Oak End Table</strong>
+          </h4>
+          <p class="text-faded mb-0">I received new appreciation for the hard in hardwood when 
+            I made the mortisse and tenon joints for this oak table. I started out using a hand chisel.
+            After some research I used dowels joints on my second table.</p>
         </div>
 
-                                                              <!-- Hobby Title Row -->
-        <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-8">
-            <h1>   Hobbies   </h1>
-          </div>
-        </div>    
-                                                               <!-- Hobby Row -->
-              <div class="row">
-                  <div class="col-xs-6 col-sm-3 col-md-2">
-                    <div class="thumbnail">
-                      <a target="_blank" href="woodWorking.html">
-                        <img src="./Images/endTable.jpg" alt="oak end table" height="220" >
-                      <div class="caption">
-                          <h3>Woodworking</h3> 
-                      </div>
-                    </a>
-                    </div>
-                  </div>  
-                  <div class="col-xs-6 col-sm-3 col-md-2">
-                    <div class="thumbnail">
-                      <a target="_blank" href="reading.html">
-                        <img src="./Images/Gandalf.jpg" alt="picture of Gandalf" height="220" >
-                      <div class="caption">
-                          <h3>Reading</h3> 
-                      </div>
-                    </a>
-                    </div>
-                  </div>  
-                  <div class="col-xs-6 col-sm-3 col-md-2">
-                      <div class="thumbnail">
-                          <img src="./Images/bikingInSwitz.jpg" alt="biking in Switzerland" height="220" >
-                        <div class="caption">
-                              <h3>Biking</h3> 
-                        </div>
-                    </div>
-                  </div>  
-             
-              <!-- end of container -->
-      </div>   
+        <!-- penny table -->
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <img class="img-fluid" src="img/pennyPlantTable.jpg" alt="penny top end table">
+          </span> -->
+          <h4>
+            <strong>Penny Top Table</strong>
+          </h4>
+          <p class="text-faded mb-0">The penny top helps the table handle a water spill. Since everyone asks the top was $7.</p>
+        </div>
 
+        <!-- Wooden vase -->
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <img class="img-fluid" src="img/woodenVase.jpg" alt="wooden vase">
+          </span> -->
+          <h4>
+            <strong>Wooden Vase</strong>
+          </h4>
+          <p class="text-faded mb-0">The octagon shape requires beveled cuts on a table saw and with such small pieces it 
+            takes some planning to make sure my fingers stay attached. Epoxy resin on the inside means it can hold water.</p>
+        </div>
+
+          <!-- Frame -->
+        <div class="col-lg-3 col-md-6">
+            <img class="img-fluid" src="img/twoPartFrame.jpg" alt="double frame">
+          <h4>
+            <strong>Double Frame</strong>
+          </h4>
+          <p class="text-faded mb-0">The inner frames were the failed part of another project so the outer 
+            frame was added to cover the damage and add color.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Callout -->
+  <section id="contact" class="callout bg-light">
+      <div class="container text-center">
+          <h2 class="mx-auto mb-5 "><em>Contacts</em></h2>
+          <a href="https://github.com/blizzardfun" class="btn btn-xl btn-dark">GitHub</a>
+          <a href="https://www.linkedin.com/in/carol-t-358003155" class="btn btn-xl btn-light">LinkedIn</a>
+          <a href="mailto:cthompson14679@gmail.com?Subject=Hello%20again" class="btn btn-xl btn-dark mr-4">Email</a>
+        </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer text-center bg-dark">
+    <div class="container ">
+      <p class="lead text-white mb-3">Email: cthompson14679@gmail.com</p>
+      <p class="text-white small mb-0">Copyright &copy; Carol Thompson 2019</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
 
 </body>
 
